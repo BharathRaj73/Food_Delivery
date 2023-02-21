@@ -1,7 +1,9 @@
 import React from "react";
 
 const MainContainer = () => {
-  return <div></div>;
+  return <div>
+    Main
+  </div>;
 };
 
 export default MainContainer;
