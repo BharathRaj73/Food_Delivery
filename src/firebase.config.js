@@ -2,6 +2,7 @@ import { getApp, getApps, initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
+
 const firebaseConfig = {
   apiKey: "AIzaSyC6lk-MAFA3Uscb1VMDmyoAXHql4qx9Ja4",
   authDomain: "restaurant-react-9b680.firebaseapp.com",
@@ -13,7 +14,7 @@ const firebaseConfig = {
 };
 
 const app = getApps.length > 0 ? getApp() : initializeApp(firebaseConfig);
-const db = getFirestore(app);
+const firestore = getFirestore(app);
 const storage = getStorage(app);
 
-export { app, getFirestore, storage };
+export { app, firestore, storage };
