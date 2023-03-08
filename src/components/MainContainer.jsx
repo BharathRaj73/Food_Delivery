@@ -5,7 +5,6 @@ import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 import RowContainer from "./RowContainer";
 import { useStateValue } from "../context/StateProvider";
 import MenuContainer from "./MenuContainer";
-import {IoFast}
 
 const MainContainer = () => {
   const [{ foodItems }, dispatch] = useStateValue();
