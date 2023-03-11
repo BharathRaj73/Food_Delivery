@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { IoFastFood } from "react-icons/io5";
 import { categories } from "../utils/Data";
 import { motion } from "framer-motion";
@@ -21,11 +21,11 @@ const MenuContainer = () => {
           {categories &&
             categories.map((category) => (
               <motion.div
-                whileTap={{ scale: 0.6 }}
+                whileTap={{ scale: 0.75 }}
                 key={category.id}
                 className={`group ${
                   filter === category.urlParamName ? "bg-cartNumBg" : "bg-card"
-                } w-24 min-w-[94px] h-28 cursor-pointer rounded-lg drop-shadow-xl flex flex-col gap-3 items-center justify-center hover:bg-cartNumBg duration-150 transition-all ease-in-out`}
+                } w-24 min-w-[94px] h-28 cursor-pointer rounded-lg drop-shadow-xl flex flex-col gap-3 items-center justify-center hover:bg-cartNumBg `}
                 onClick={() => setFilter(category.urlParamName)}
               >
                 <div
@@ -33,7 +33,7 @@ const MenuContainer = () => {
                     filter === category.urlParamName
                       ? "bg-white"
                       : "bg-cartNumBg"
-                  } group-hover:bg-card flex items-center justify-center`}
+                  } group-hover:bg-white flex items-center justify-center`}
                 >
                   <IoFastFood
                     className={`${
@@ -59,7 +59,7 @@ const MenuContainer = () => {
         <div className="w-full">
           <RowContainer
             flag={false}
-            data={foodItems?.filter((n) => n.category === filter)}
+            data={foodItems?.filter((n) => n.category == filter)}
           />
         </div>
       </div>
