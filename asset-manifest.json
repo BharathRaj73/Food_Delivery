@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/BharathRaj73/Food_Delivery/static/css/main.50e397c2.css",
-    "main.js": "/BharathRaj73/Food_Delivery/static/js/main.05f42fad.js",
-    "static/media/c3.png": "/BharathRaj73/Food_Delivery/static/media/c3.55f83414f33f66456b35.png",
-    "static/media/fi1.png": "/BharathRaj73/Food_Delivery/static/media/fi1.3f43e51b6058550d1f44.png",
-    "static/media/logo.png": "/BharathRaj73/Food_Delivery/static/media/logo.0f99324454e3c3ccba98.png",
-    "static/media/f1.png": "/BharathRaj73/Food_Delivery/static/media/f1.c52686695ee9a5c4cd0d.png",
-    "static/media/i1.png": "/BharathRaj73/Food_Delivery/static/media/i1.3d9b129d2c5432c6f1fb.png",
-    "static/media/heroBg.png": "/BharathRaj73/Food_Delivery/static/media/heroBg.c43c4862422e70d88698.png",
-    "static/media/delivery.png": "/BharathRaj73/Food_Delivery/static/media/delivery.bf9130a0962fbe091abc.png",
-    "static/media/avatar.png": "/BharathRaj73/Food_Delivery/static/media/avatar.68cdc4513e601d28a382.png",
-    "static/media/emptyCart.svg": "/BharathRaj73/Food_Delivery/static/media/emptyCart.71ad17e692d71caa77c6c9351f84756b.svg",
-    "static/media/NotFound.svg": "/BharathRaj73/Food_Delivery/static/media/NotFound.4e90bb93460bfd8d9e2c86b42ef91a4a.svg",
-    "index.html": "/BharathRaj73/Food_Delivery/index.html",
-    "main.50e397c2.css.map": "/BharathRaj73/Food_Delivery/static/css/main.50e397c2.css.map",
-    "main.05f42fad.js.map": "/BharathRaj73/Food_Delivery/static/js/main.05f42fad.js.map"
+    "main.css": "/Food_Delivery/static/css/main.50e397c2.css",
+    "main.js": "/Food_Delivery/static/js/main.0a1308ab.js",
+    "static/media/c3.png": "/Food_Delivery/static/media/c3.55f83414f33f66456b35.png",
+    "static/media/fi1.png": "/Food_Delivery/static/media/fi1.3f43e51b6058550d1f44.png",
+    "static/media/logo.png": "/Food_Delivery/static/media/logo.0f99324454e3c3ccba98.png",
+    "static/media/f1.png": "/Food_Delivery/static/media/f1.c52686695ee9a5c4cd0d.png",
+    "static/media/i1.png": "/Food_Delivery/static/media/i1.3d9b129d2c5432c6f1fb.png",
+    "static/media/heroBg.png": "/Food_Delivery/static/media/heroBg.c43c4862422e70d88698.png",
+    "static/media/delivery.png": "/Food_Delivery/static/media/delivery.bf9130a0962fbe091abc.png",
+    "static/media/avatar.png": "/Food_Delivery/static/media/avatar.68cdc4513e601d28a382.png",
+    "static/media/emptyCart.svg": "/Food_Delivery/static/media/emptyCart.71ad17e692d71caa77c6c9351f84756b.svg",
+    "static/media/NotFound.svg": "/Food_Delivery/static/media/NotFound.4e90bb93460bfd8d9e2c86b42ef91a4a.svg",
+    "index.html": "/Food_Delivery/index.html",
+    "main.50e397c2.css.map": "/Food_Delivery/static/css/main.50e397c2.css.map",
+    "main.0a1308ab.js.map": "/Food_Delivery/static/js/main.0a1308ab.js.map"
   },
   "entrypoints": [
     "static/css/main.50e397c2.css",
-    "static/js/main.05f42fad.js"
+    "static/js/main.0a1308ab.js"
   ]
 }
