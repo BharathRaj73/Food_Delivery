@@ -17,8 +17,9 @@ React JS, Tailwind CSS, Firebase
 Clone the project
 
 ```bash
- https://github.com/BharathRaj73/Tours-and-Travels
+https://github.com/BharathRaj73/Food_Delivery
 ```
+
 
 Go to the project directory
 
@@ -27,9 +28,4 @@ Install dependencies
 ```bash
   npm install
 ```
-
-```Start the server
-  npm run dev
-```
-
 
